@@ -36,30 +36,28 @@
             // 
             // outputLabel
             // 
-            this.outputLabel.AutoSize = true;
-            this.outputLabel.Location = new System.Drawing.Point(12, 9);
+            this.outputLabel.Location = new System.Drawing.Point(24, 26);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(70, 25);
+            this.outputLabel.Size = new System.Drawing.Size(1174, 25);
             this.outputLabel.TabIndex = 0;
-            this.outputLabel.Text = "label1";
+            this.outputLabel.Text = "You are in a Fortnite Battle Royale. Pick a skin";
             // 
             // redLabel
             // 
-            this.redLabel.AutoSize = true;
             this.redLabel.Location = new System.Drawing.Point(24, 111);
             this.redLabel.Name = "redLabel";
-            this.redLabel.Size = new System.Drawing.Size(70, 25);
+            this.redLabel.Size = new System.Drawing.Size(1186, 25);
             this.redLabel.TabIndex = 1;
-            this.redLabel.Text = "label2";
+            this.redLabel.Text = "Default";
             // 
             // blueLabel
             // 
             this.blueLabel.AutoSize = true;
             this.blueLabel.Location = new System.Drawing.Point(24, 209);
             this.blueLabel.Name = "blueLabel";
-            this.blueLabel.Size = new System.Drawing.Size(70, 25);
+            this.blueLabel.Size = new System.Drawing.Size(112, 25);
             this.blueLabel.TabIndex = 2;
-            this.blueLabel.Text = "label3";
+            this.blueLabel.Text = "John Wick";
             // 
             // yellowLabel
             // 
@@ -69,18 +67,19 @@
             this.yellowLabel.Size = new System.Drawing.Size(70, 25);
             this.yellowLabel.TabIndex = 3;
             this.yellowLabel.Text = "label4";
+            this.yellowLabel.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1271, 665);
             this.Controls.Add(this.yellowLabel);
             this.Controls.Add(this.blueLabel);
             this.Controls.Add(this.redLabel);
             this.Controls.Add(this.outputLabel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Fortnite Simulator";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
