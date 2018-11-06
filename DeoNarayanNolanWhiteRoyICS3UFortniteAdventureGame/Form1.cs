@@ -127,6 +127,9 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     blueLabel.Text = "John Wick";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
+                    //reel1.Image = 
+                    //reel2.image
+                    //reel1.Location = new Point(2, 3);
                     break;
                 case 2:
                     outputLabel.Text = "Another player sees you and is trying to trap kill you!";
@@ -388,6 +391,11 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = false;
                     break;
             }
+        }
+
+        private void reel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

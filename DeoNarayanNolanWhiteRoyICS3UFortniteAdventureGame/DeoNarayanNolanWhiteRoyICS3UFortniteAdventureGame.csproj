@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -65,7 +68,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +83,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-Habits-of-Happy-Teachers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-Habits-of-Happy-Teachers1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consumable_bush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
