@@ -8,11 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Media;
 
 namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
 {
     public partial class Form1 : Form
     {
+        SoundPlayer takeTheLSoundPlayer = new SoundPlayer(Properties.Resources.takeTheLSound);
+        SoundPlayer shotSoundPlayer = new SoundPlayer(Properties.Resources.snipeShotgunSound);
+        SoundPlayer machineGunSoundPlayer = new SoundPlayer(Properties.Resources.snipeShotgunSound);
+        SoundPlayer runningSoundPlayer = new SoundPlayer(Properties.Resources.runningSound);
+        SoundPlayer riftSoundPlayer = new SoundPlayer(Properties.Resources.riftSound);
+        SoundPlayer eliminationSoundPlayer = new SoundPlayer(Properties.Resources.eliminatedSound);
+        SoundPlayer explosionSoundPlayer = new SoundPlayer(Properties.Resources.explosionSound);
+
         int scene = 1;
         Random randGen = new Random();
         int randomNumberHolder1;
@@ -24,7 +33,7 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
         }
             public void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.B)//red
+            if (e.KeyCode == Keys.B)
             {
                 if (scene == 1) { scene = 2; }
                 else if (scene == 2) { scene = 4; }
@@ -118,61 +127,81 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                 Refresh();
             }
 
-
             switch (scene)
             {
                 case 1:
                     outputLabel.Text = "You are in a Fortnite Battle Royale. Pick a skin.";
-                    redLabel.Text = "Default";
-                    blueLabel.Text = "John Wick";
-                    yellowLabel.Text = "";
+                    redLabel.Text = "JohnWick";
+                    blueLabel.Text = "Default";
                     yellowLabel.Visible = false;
-                  //  reel1.Image = download
-                  //reel1.Location = new Point (whatever); 
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.JohnWick;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.defaultSkin;
+                    reel3.Visible = false;
                     break;
                 case 2:
                     outputLabel.Text = "Another player sees you and is trying to trap kill you!";
-                    redLabel.Text = "Fight the player";
+                    redLabel.Text = "Fight the player"; 
                     blueLabel.Text = "Rift-To-Go away";
-                    yellowLabel.Text = "";
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.rift;
                     yellowLabel.Visible = false;
                     break;
                 case 3:
                     outputLabel.Text = "Where you drop, you only see one other player.";
-                    redLabel.Text = "Shoot at the player";
+                    redLabel.Text = "Shoot at the player"; 
                     blueLabel.Text = "Hide in a bush";
-                    yellowLabel.Text = "";
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
                     yellowLabel.Visible = false;
                     break;
                 case 4:
+                    machineGunSoundPlayer.Play();
                     outputLabel.Text = "The other player rips through your shield and you are left with 80 health.";
                     redLabel.Text = "Shoot your rocket launcher";
-                    blueLabel.Text = "Shoot your pump shotgun";
+                    blueLabel.Text = "Shoot your AR";
                     yellowLabel.Text = "Build walls around you";
                     yellowLabel.Visible = true;
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.RPG;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.coward;
+                    /*
+                     * redlabel.Loacation = new Point ();
+                     * bluelabel.Loacation = new Point ();
+                     * yellowlabel.Loacation = new Point ();
+                     * reel1.Loacation = new Point ();
+                     * reel2.Loacation = new Point ();
+                     * reel3.Loacation = new Point ();
+                     */
                     break;
                 case 5:
+                    riftSoundPlayer.Play();
                     outputLabel.Text = "You escape safely.";
                     redLabel.Text = "Hide in a bush";
                     blueLabel.Text = "Farm materials";
-                    yellowLabel.Text = "";
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.wood;
                     yellowLabel.Visible = false;
                     break;
                 case 6:
+                    riftSoundPlayer.Play();
                     outputLabel.Text = "The other player uses the rift and follows you!";
                     redLabel.Text = "Build battle the player";
                     blueLabel.Text = "Run away";
-                    yellowLabel.Text = "";
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.buildBattle;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.runningCharacter;
                     yellowLabel.Visible = false;
                     break;
                 case 7:
+                    riftSoundPlayer.Play();
                     outputLabel.Text = "The other player rifts away";
                     redLabel.Text = "Rift after the player";
                     blueLabel.Text = "Don't bother";
-                    yellowLabel.Text = "";
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.rift;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.coward;
                     yellowLabel.Visible = false;
                     break;
                 case 8:
+                    machineGunSoundPlayer.Play();
                     outputLabel.Text = "The player sees you in the bush and start shooting!";
                     redLabel.Text = "";
                     blueLabel.Text = "";
@@ -188,19 +217,30 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     break;
                 case 9:
                     outputLabel.Text = "You accidently rocket launch the ground below you and you eliminate yourself";
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     break;
                 case 10:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "You accidently build floors instead of walls. Player shoots you easily.";
+                    Thread.Sleep(1000);
+                    shotSoundPlayer.Play();
+                    Thread.Sleep(1500);
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
                 case 11:
+                    shotSoundPlayer.Play();
+                    Thread.Sleep(1000);
                     outputLabel.Text = "You get a head shot dealing 170 damage to the opponent. You get the elimination!";
                     redLabel.Text = "Start dancing";
                     blueLabel.Text = "Don't bother";
@@ -208,14 +248,23 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = false;
                     break;
                 case 12:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
+                    shotSoundPlayer.Play();
                     outputLabel.Text = "Your shot deals 1 damage to the opponent. The other player kills you easily. ";
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
+
                     break;
                 case 13:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
+                    shotSoundPlayer.Play();
                     outputLabel.Text = "A player sees you in the bush. You get sniped.";
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
@@ -235,27 +284,44 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = false;
                     break;
                 case 15:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "Your Fortnite lags and you die of fall damage!";
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
                 case 16:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
+                    shotSoundPlayer.Play();
                     outputLabel.Text = "The other player easily shoots you";
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
                 case 17:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "Someone snipes you as you are gliding through the air!";
+                    shotSoundPlayer.Play();
+                    Thread.Sleep(1500);
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
                 case 18:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "Another player that you did not see snipes you from behind";
+                    shotSoundPlayer.Play();
+                    Thread.Sleep(1500);
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
@@ -270,7 +336,10 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = false;
                     break;
                 case 22:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "Bad choice! You lost.";
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
@@ -306,6 +375,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     Refresh();
                     Thread.Sleep(3000);
                     Refresh();
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "The school wifi cuts out and your screen freezes. " +
                         "You don't know what happened, but it's safe to say you died.";
                     yellowLabel.Text = "";
@@ -314,7 +385,12 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = false;
                     break;
                 case 26:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "Someone sees you get into the bush and snipes you.";
+                    shotSoundPlayer.Play();
+                    Thread.Sleep(1500);
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
@@ -341,27 +417,44 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = true;
                     break;
                 case 32:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "Someone rocket launches you!";
+                    explosionSoundPlayer.Play();
+                    Thread.Sleep(1500);
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
                 case 33:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "A grenade is thrown into your base!";
+                    explosionSoundPlayer.Play();
+                    Thread.Sleep(1500);
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
                 case 34:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "You get sniped";
+                    shotSoundPlayer.Play();
+                    Thread.Sleep(1500);
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
                 case 36:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "The other player dies in the storm. You won!";
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
@@ -369,13 +462,18 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = false;
                     break;
                 case 37:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "Because you're trash, the other player kills you instantly!";
+                    eliminationSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
                 case 38:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "You're Fortnite crashes. What a shame!";
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
@@ -383,12 +481,22 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = false;
                     break;
                 case 39:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "The other player dies of fall damage. You won!";
+                    takeTheLSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
+                //Loading Screen
+                case 99:
+                    break;
+                //Instructions 
+                case 100:
+                    break;
+
             }
         }
     }

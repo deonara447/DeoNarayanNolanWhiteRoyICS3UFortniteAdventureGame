@@ -129,5 +129,44 @@
   <ItemGroup>
     <None Include="Resources\images-2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54779__bevangoldswain__running-hard-surface.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\165391__shawnyboy__machine-gun-shots.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\180961__kleeb__gunshots.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\377083__cribbler__turn-on-printer.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\426888__thisusernameis__beep4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange Justice syncs perfectly with Take The L Music %28online-audio-converter.com%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rift-To-Go_-_SOUND_EFFECT_Fortnite_Battle_Royale-rdOBu1-uAWA.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminated_-_SOUND_EFFECT_Fortnite_Battle_Royale-GCe9-iCLsig.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buildBattle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\runningCharacter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\235968__tommccann__explosion-01.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
