@@ -71,6 +71,16 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap battleRoyal {
+            get {
+                object obj = ResourceManager.GetObject("battleRoyal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream beepSound {
@@ -270,6 +280,16 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties {
         internal static System.IO.UnmanagedMemoryStream snipeShotgunSound {
             get {
                 return ResourceManager.GetStream("snipeShotgunSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stormCircle {
+            get {
+                object obj = ResourceManager.GetObject("stormCircle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

@@ -168,5 +168,17 @@
   <ItemGroup>
     <None Include="Resources\235968__tommccann__explosion-01.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleRoyaleLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_battleroyalelogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_battleroyalelogo_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stormCircle.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

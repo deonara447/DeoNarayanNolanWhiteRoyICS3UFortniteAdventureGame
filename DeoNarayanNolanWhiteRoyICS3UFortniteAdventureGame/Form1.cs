@@ -130,6 +130,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
             switch (scene)
             {
                 case 1:
+                    reel1.Visible = true;
+                    reel2.Visible = true;
                     outputLabel.Text = "You are in a Fortnite Battle Royale. Pick a skin.";
                     redLabel.Text = "JohnWick";
                     blueLabel.Text = "Default";
@@ -207,7 +209,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     blueLabel.Text = "";
                     Refresh();
                     Thread.Sleep(3000);
-                    
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.happyTeacher;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.angryTeacher;
                     outputLabel.Text = "Uh Oh! Mr. T sees you playing Fortnite in class";
                     redLabel.Text = "Stop playing like a good child";
                     blueLabel.Text = "Explain to Mr. T that you're being shot at";
@@ -275,8 +278,14 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     Refresh();
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     Thread.Sleep(3000);
                     Refresh();
+                    reel1.Visible = true;
+                    reel2.Visible = true;
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.stormCircle;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.coward;
                     outputLabel.Text = "There are 10 people left in the match and you are not in the next circle.";
                     redLabel.Text = "Move to a bush in the next circle";
                     blueLabel.Text = "Build a 1 by 1 in the circle";
@@ -332,6 +341,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     outputLabel.Text = "There are 3 people left in the match";
                     redLabel.Text = "Engage";
                     blueLabel.Text = "Hide in a bush";
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
@@ -346,6 +357,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = false;
                     break;
                 case 23:
+                    reel1.Visible = false;
+                    reel2.Visible = false;
                     outputLabel.Text = "Mr. T is very understanding and allows you to keep playing.";
                     redLabel.Text = "";
                     blueLabel.Text = "";
@@ -355,6 +368,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     Refresh();
                     Thread.Sleep(3000);
                     Refresh();
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
                     outputLabel.Text = "There is only one other player left in the match and it's a noob.";
                     redLabel.Text = "Engage";
                     blueLabel.Text = "Hide in a bush";
@@ -362,6 +377,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = false;
                     break;
                 case 24:
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
                     outputLabel.Text = "There are only 3 people left in the match";
                     redLabel.Text = "Engage";
                     blueLabel.Text = "Hide in a bush";
@@ -403,6 +420,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     Refresh();
                     Thread.Sleep(3000);
                     Refresh();
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
                     outputLabel.Text = "A player is killed. There are only 2 people left.";
                     redLabel.Text = "Stay in your bush";
                     blueLabel.Text = "Engage";
@@ -414,6 +433,9 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "Wood";
                     blueLabel.Text = "Metal";
                     yellowLabel.Text = "Stone";
+                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.wood;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.metal;
+                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.brick;
                     yellowLabel.Visible = true;
                     break;
                 case 32:
@@ -456,6 +478,7 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     reel1.Visible = false;
                     reel2.Visible = false;
                     outputLabel.Text = "The other player dies in the storm. You won!";
+                    takeTheLSoundPlayer.Play();
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
                     yellowLabel.Text = "";

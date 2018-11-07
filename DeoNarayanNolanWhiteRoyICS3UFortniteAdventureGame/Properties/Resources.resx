@@ -160,6 +160,9 @@
   <data name="coward" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="battleRoyal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_battleroyalelogo_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="beepSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\426888__thisusernameis__beep4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -189,6 +192,9 @@
   </data>
   <data name="snipeShotgunSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\180961__kleeb__gunshots.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="stormCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stormCircle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="takeTheLSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Orange Justice syncs perfectly with Take The L Music (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
