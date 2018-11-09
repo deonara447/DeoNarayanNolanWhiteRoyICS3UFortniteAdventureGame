@@ -63,16 +63,6 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap angryTeacher {
-            get {
-                object obj = ResourceManager.GetObject("angryTeacher", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap battleRoyal {
             get {
                 object obj = ResourceManager.GetObject("battleRoyal", resourceCulture);
@@ -122,6 +112,46 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Capture10 {
+            get {
+                object obj = ResourceManager.GetObject("Capture10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap capture11 {
+            get {
+                object obj = ResourceManager.GetObject("capture11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap capture12 {
+            get {
+                object obj = ResourceManager.GetObject("capture12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap capture9 {
+            get {
+                object obj = ResourceManager.GetObject("capture9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coward {
             get {
                 object obj = ResourceManager.GetObject("coward", resourceCulture);
@@ -135,6 +165,16 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties {
         internal static System.Drawing.Bitmap defaultSkin {
             get {
                 object obj = ResourceManager.GetObject("defaultSkin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap disappointment {
+            get {
+                object obj = ResourceManager.GetObject("disappointment", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -190,6 +230,16 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imageedit_3_3732559103 {
+            get {
+                object obj = ResourceManager.GetObject("imageedit_3_3732559103", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap JohnWick {
             get {
                 object obj = ResourceManager.GetObject("JohnWick", resourceCulture);
@@ -213,6 +263,25 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties {
             get {
                 object obj = ResourceManager.GetObject("metal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MuchDisapointment {
+            get {
+                object obj = ResourceManager.GetObject("MuchDisapointment", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream OGSong {
+            get {
+                return ResourceManager.GetStream("OGSong", resourceCulture);
             }
         }
         

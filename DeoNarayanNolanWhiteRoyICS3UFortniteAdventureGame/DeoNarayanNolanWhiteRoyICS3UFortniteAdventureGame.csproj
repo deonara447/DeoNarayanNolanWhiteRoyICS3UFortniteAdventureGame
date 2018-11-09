@@ -180,5 +180,32 @@
   <ItemGroup>
     <None Include="Resources\stormCircle.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture 11.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capture9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture10.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capture12.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fortnite_OST_-_Title_Menu-BSsSO32Ee28.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capture11.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit_3_3732559103.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disappointment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MuchDisapointment.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -118,85 +118,106 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="happyTeacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\8-Habits-of-Happy-Teachers1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bush" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Consumable_bush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="defaultSkin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (7).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="JohnWick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ragnarok" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="metal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brick" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download-6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="victoryRoyale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download-7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RPG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download-8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rift" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download-9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="buildBattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buildBattle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="elimination" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download-10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="angryTeacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="victoryRoyale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="coward" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="battleRoyal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_battleroyalelogo_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="beepSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\426888__thisusernameis__beep4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buildBattle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\buildBattle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="brick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="eliminatedSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Eliminated_-_SOUND_EFFECT_Fortnite_Battle_Royale-GCe9-iCLsig.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="explosionSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\235968__tommccann__explosion-01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ragnarok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OGSong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fortnite_OST_-_Title_Menu-BSsSO32Ee28.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="machineGunSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\165391__shawnyboy__machine-gun-shots.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="defaultSkin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (7).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="riftSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rift-To-Go_-_SOUND_EFFECT_Fortnite_Battle_Royale-rdOBu1-uAWA.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="bush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Consumable_bush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="runningCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\runningCharacter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="runningSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\54779__bevangoldswain__running-hard-surface.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="rift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="snipeShotgunSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\180961__kleeb__gunshots.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="stormCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stormCircle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imageedit_3_3732559103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageedit_3_3732559103.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battleRoyal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_battleroyalelogo_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riftSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rift-To-Go_-_SOUND_EFFECT_Fortnite_Battle_Royale-rdOBu1-uAWA.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="capture12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capture12.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="runningCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\runningCharacter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Capture10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Capture10.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capture9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capture9.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JohnWick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RPG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disappointment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disappointment.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="happyTeacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8-Habits-of-Happy-Teachers1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explosionSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\235968__tommccann__explosion-01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="capture11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capture11.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="runningSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\54779__bevangoldswain__running-hard-surface.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="takeTheLSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Orange Justice syncs perfectly with Take The L Music (online-audio-converter.com).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="stormCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stormCircle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machineGunSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\165391__shawnyboy__machine-gun-shots.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beepSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\426888__thisusernameis__beep4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MuchDisapointment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MuchDisapointment.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
