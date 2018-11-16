@@ -34,9 +34,9 @@
             this.blueLabel = new System.Windows.Forms.Label();
             this.yellowLabel = new System.Windows.Forms.Label();
             this.loadingScreenLabel = new System.Windows.Forms.Label();
-            this.reel3 = new System.Windows.Forms.Label();
-            this.reel2 = new System.Windows.Forms.Label();
-            this.reel1 = new System.Windows.Forms.Label();
+            this.middleImageLabel = new System.Windows.Forms.Label();
+            this.rightImageLabel = new System.Windows.Forms.Label();
+            this.leftImageLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // outputLabel
@@ -94,40 +94,40 @@
             // 
             this.loadingScreenLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 30.875F);
             this.loadingScreenLabel.ForeColor = System.Drawing.Color.White;
-            this.loadingScreenLabel.Location = new System.Drawing.Point(-1, -1);
+            this.loadingScreenLabel.Location = new System.Drawing.Point(-1, -13);
             this.loadingScreenLabel.Name = "loadingScreenLabel";
-            this.loadingScreenLabel.Size = new System.Drawing.Size(1606, 752);
+            this.loadingScreenLabel.Size = new System.Drawing.Size(1606, 789);
             this.loadingScreenLabel.TabIndex = 7;
             this.loadingScreenLabel.Text = "Press any button to begin";
             this.loadingScreenLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // reel3
+            // middleImageLabel
             // 
-            this.reel3.ForeColor = System.Drawing.Color.White;
-            this.reel3.Image = global::DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
-            this.reel3.Location = new System.Drawing.Point(532, 175);
-            this.reel3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.reel3.Name = "reel3";
-            this.reel3.Size = new System.Drawing.Size(500, 412);
-            this.reel3.TabIndex = 6;
+            this.middleImageLabel.ForeColor = System.Drawing.Color.White;
+            this.middleImageLabel.Image = global::DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
+            this.middleImageLabel.Location = new System.Drawing.Point(532, 175);
+            this.middleImageLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.middleImageLabel.Name = "middleImageLabel";
+            this.middleImageLabel.Size = new System.Drawing.Size(500, 412);
+            this.middleImageLabel.TabIndex = 6;
             // 
-            // reel2
+            // rightImageLabel
             // 
-            this.reel2.Image = global::DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.defaultSkin;
-            this.reel2.Location = new System.Drawing.Point(1074, 175);
-            this.reel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.reel2.Name = "reel2";
-            this.reel2.Size = new System.Drawing.Size(508, 412);
-            this.reel2.TabIndex = 5;
+            this.rightImageLabel.Image = global::DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.defaultSkin;
+            this.rightImageLabel.Location = new System.Drawing.Point(1074, 175);
+            this.rightImageLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.rightImageLabel.Name = "rightImageLabel";
+            this.rightImageLabel.Size = new System.Drawing.Size(508, 412);
+            this.rightImageLabel.TabIndex = 5;
             // 
-            // reel1
+            // leftImageLabel
             // 
-            this.reel1.Image = ((System.Drawing.Image)(resources.GetObject("reel1.Image")));
-            this.reel1.Location = new System.Drawing.Point(22, 175);
-            this.reel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.reel1.Name = "reel1";
-            this.reel1.Size = new System.Drawing.Size(500, 412);
-            this.reel1.TabIndex = 4;
+            this.leftImageLabel.Image = ((System.Drawing.Image)(resources.GetObject("leftImageLabel.Image")));
+            this.leftImageLabel.Location = new System.Drawing.Point(22, 175);
+            this.leftImageLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.leftImageLabel.Name = "leftImageLabel";
+            this.leftImageLabel.Size = new System.Drawing.Size(500, 412);
+            this.leftImageLabel.TabIndex = 4;
             // 
             // Form1
             // 
@@ -136,9 +136,9 @@
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(1604, 748);
             this.Controls.Add(this.loadingScreenLabel);
-            this.Controls.Add(this.reel3);
-            this.Controls.Add(this.reel2);
-            this.Controls.Add(this.reel1);
+            this.Controls.Add(this.middleImageLabel);
+            this.Controls.Add(this.rightImageLabel);
+            this.Controls.Add(this.leftImageLabel);
             this.Controls.Add(this.yellowLabel);
             this.Controls.Add(this.blueLabel);
             this.Controls.Add(this.redLabel);
@@ -159,9 +159,9 @@
         private System.Windows.Forms.Label redLabel;
         private System.Windows.Forms.Label blueLabel;
         private System.Windows.Forms.Label yellowLabel;
-        private System.Windows.Forms.Label reel1;
-        private System.Windows.Forms.Label reel2;
-        private System.Windows.Forms.Label reel3;
+        private System.Windows.Forms.Label leftImageLabel;
+        private System.Windows.Forms.Label rightImageLabel;
+        private System.Windows.Forms.Label middleImageLabel;
         private System.Windows.Forms.Label loadingScreenLabel;
     }
 }

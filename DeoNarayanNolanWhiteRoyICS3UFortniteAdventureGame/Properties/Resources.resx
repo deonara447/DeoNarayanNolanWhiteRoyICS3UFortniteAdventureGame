@@ -151,7 +151,7 @@
   <data name="snipeShotgunSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\180961__kleeb__gunshots.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="imageedit_3_3732559103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="dissapointedMrT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageedit_3_3732559103.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="battleRoyal" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -160,19 +160,19 @@
   <data name="riftSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rift-To-Go_-_SOUND_EFFECT_Fortnite_Battle_Royale-rdOBu1-uAWA.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="capture12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="LoadingScreen3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\capture12.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="runningCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\runningCharacter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Capture10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="loadingSceen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Capture10.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="capture9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="LoadingScreen0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\capture9.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JohnWick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="johnWick" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="coward" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -196,7 +196,7 @@
   <data name="explosionSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\235968__tommccann__explosion-01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="capture11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="LoadingScreen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\capture11.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="runningSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -217,7 +217,7 @@
   <data name="beepSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\426888__thisusernameis__beep4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="MuchDisapointment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="muchDisapointment" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MuchDisapointment.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

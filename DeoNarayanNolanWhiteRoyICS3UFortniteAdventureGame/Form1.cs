@@ -171,16 +171,16 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     loadingScreenLabel.Text = "";
 
                     //Different pictures make it appear as if the loading bar is gradually increasing
-                    loadingScreenLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.capture9;
+                    loadingScreenLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.LoadingScreen0;
                     Refresh();
                     Thread.Sleep(1000);
-                    loadingScreenLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.Capture10;
+                    loadingScreenLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.loadingSceen1;
                     Refresh();
                     Thread.Sleep(4000);
-                    loadingScreenLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.capture11;
+                    loadingScreenLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.LoadingScreen2;
                     Refresh();
                     Thread.Sleep(4000);
-                    loadingScreenLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.capture12;
+                    loadingScreenLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.LoadingScreen3;
                     Refresh();
                     Thread.Sleep(4000);
 
@@ -191,12 +191,12 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     loadingScreenLabel.Visible = false;
 
                     //Pictures associated with options are shown (middle picture is Fortnite logo if only two options)
-                    reel1.Visible = true;
-                    reel2.Visible = true;
-                    reel3.Visible = true;
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.JohnWick;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.defaultSkin;
-                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
+                    leftImageLabel.Visible = true;
+                    rightImageLabel.Visible = true;
+                    middleImageLabel.Visible = true;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.johnWick;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.defaultSkin;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
 
                     //so viewer knows the current situation in the game
                     outputLabel.Text = "You are in a Fortnite Battle Royale. Pick a skin.";
@@ -218,16 +218,16 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     blueLabel.Text = "Rift-To-Go away";
 
                     //shows the two new pictures associated with the options
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.rift;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.rift;
                     break;
                 case 3:
                     outputLabel.Text = "Where you drop, you only see one other player.";
                     redLabel.Text = "Shoot at the player"; 
                     blueLabel.Text = "Hide in a bush";
 
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
                     break;
                 case 4:
                     //machine gun sound to imitate shooting
@@ -241,9 +241,9 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     blueLabel.Text = "Shoot your AR";
                     yellowLabel.Text = "Build walls around you";
 
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.RPG;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
-                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.coward;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.RPG;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.coward;
                     break;
                 case 5:
                     //Successful Outcome
@@ -254,8 +254,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "Hide in a bush";
                     blueLabel.Text = "Farm materials";
 
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.wood;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.wood;
                     break;
                 case 6:
                     //Unsuccessful Outcome
@@ -265,8 +265,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "Build battle the player";
                     blueLabel.Text = "Run away";
 
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.buildBattle;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.runningCharacter;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.buildBattle;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.runningCharacter;
                     yellowLabel.Visible = false;
                     break;
                 case 7:
@@ -276,8 +276,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "Rift after the player";
                     blueLabel.Text = "Don't bother";
 
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.rift;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.coward;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.rift;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.coward;
                     yellowLabel.Visible = false;
                     break;
                 case 8:
@@ -289,8 +289,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     //Removes labels (all information has not been presented yet)
                     redLabel.Text = "";
                     blueLabel.Text = "";
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     //pause
                     Refresh();
@@ -300,12 +300,12 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     outputLabel.Text = "Uh Oh! Mr. T sees you playing Fortnite in class";
 
                     //option are visible
-                    reel1.Visible = true;
-                    reel2.Visible = true;
+                    leftImageLabel.Visible = true;
+                    rightImageLabel.Visible = true;
                     redLabel.Text = "Stop playing like a good child";
                     blueLabel.Text = "Explain to Mr. T that you're being shot at";
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.happyTeacher;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.MuchDisapointment;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.happyTeacher;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.muchDisapointment;
                     Refresh();
                     break;
                 case 9:
@@ -318,7 +318,7 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     this.BackColor = Color.Red;
 
                     //reel3 is switched back to Fortnite logo
-                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
 
                     //if play again, the program will go back to scene 1
                     redLabel.Text = "Play again";
@@ -331,18 +331,18 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     yellowLabel.Visible = false;
 
                     //because there are no pictures required to go with the options (the game is over)
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
                     break;
                 case 10:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "You accidently build floors instead of walls. Player shoots you easily.";
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
 
-                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
 
@@ -360,7 +360,7 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "Start dancing";
                     blueLabel.Text = "Don't bother";
 
-                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
                     break;
@@ -369,10 +369,10 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
 
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
-                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
 
@@ -386,10 +386,10 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
 
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
-                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
 
@@ -403,25 +403,25 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "";
                     blueLabel.Text = "";
 
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     Refresh();
                     Thread.Sleep(3000);
                     Refresh();
 
-                    reel1.Visible = true;
-                    reel2.Visible = true;
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.stormCircle;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.coward;
+                    leftImageLabel.Visible = true;
+                    rightImageLabel.Visible = true;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.stormCircle;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.coward;
 
                     outputLabel.Text = "There are 10 people left in the match and you are not in the next circle.";
                     redLabel.Text = "Move to a bush in the next circle";
                     blueLabel.Text = "Build a 1 by 1 in the circle";
                     break;
                 case 15:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "Your Fortnite lags and you die of fall damage!";
                     redLabel.Text = "Play again";
@@ -432,8 +432,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
 
                     break;
                 case 16:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "The other player easily shoots you";
                     redLabel.Text = "Play again";
@@ -445,8 +445,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     eliminationSoundPlayer.Play();
                     break;
                 case 17:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "Someone snipes you as you are gliding through the air!";
                     redLabel.Text = "Play again";
@@ -458,8 +458,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     eliminationSoundPlayer.Play();
                     break;
                 case 18:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "Another player that you did not see snipes you from behind";
                     redLabel.Text = "Play again";
@@ -477,12 +477,12 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "Engage";
                     blueLabel.Text = "Hide in a bush";
 
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
                     break;
                 case 22:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "Bad choice! You lost.";
                     redLabel.Text = "Play again";
@@ -492,8 +492,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     eliminationSoundPlayer.Play();
                     break;
                 case 23:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "Mr. T is very understanding and allows you to keep playing.";
                     redLabel.Text = "";
@@ -508,10 +508,10 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     Thread.Sleep(3000);
                     Refresh();
 
-                    reel1.Visible = true;
-                    reel2.Visible = true;
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
+                    leftImageLabel.Visible = true;
+                    rightImageLabel.Visible = true;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
 
                     outputLabel.Text = "There is only one other player left in the match and it's a noob.";
                     redLabel.Text = "Engage";
@@ -522,8 +522,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "Engage";
                     blueLabel.Text = "Hide in a bush";
 
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
                     break;
                 case 25:
                     outputLabel.Text = "You snipe a player! There are only 2 people left";
@@ -534,8 +534,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     Thread.Sleep(3000);
                     Refresh();
 
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "The school wifi cuts out and your screen freezes. " +
                         "You don't know what happened, but it's safe to say you died.";
@@ -546,8 +546,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     eliminationSoundPlayer.Play();
                     break;
                 case 26:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "Someone sees you get into the bush and snipes you.";
                     redLabel.Text = "Play again";
@@ -571,8 +571,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     redLabel.Text = "Stay in your bush";
                     blueLabel.Text = "Engage";
 
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.bush;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.gun;
                     break;
                 case 28:
                     yellowLabel.Visible = true;
@@ -582,22 +582,22 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     blueLabel.Text = "Metal";
                     yellowLabel.Text = "Stone";
 
-                    reel1.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.wood;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.metal;
-                    reel2.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.brick;
+                    leftImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.wood;
+                    rightImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.metal;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.brick;
                     break;
                 case 32:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "Someone rocket launches you!";
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
 
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
-                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
 
@@ -607,17 +607,17 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     eliminationSoundPlayer.Play();               
                     break;
                 case 33:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "A grenade is thrown into your base!";
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
 
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
-                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
 
@@ -627,14 +627,14 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     eliminationSoundPlayer.Play();
                     break;
                 case 34:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "You get sniped";
                     redLabel.Text = "Play again";
                     blueLabel.Text = "Exit the game";
 
-                    reel3.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
+                    middleImageLabel.Image = DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame.Properties.Resources.battleRoyal;
                     yellowLabel.Text = "";
                     yellowLabel.Visible = false;
 
@@ -644,8 +644,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     eliminationSoundPlayer.Play();
                     break;
                 case 36:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "The other player dies in the storm. You won!";
                     redLabel.Text = "Play again";
@@ -657,8 +657,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     this.BackColor = Color.Green;
                     break;
                 case 37:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "Because you're trash, the other player kills you instantly!";
                     redLabel.Text = "Play again";
@@ -668,8 +668,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     this.BackColor = Color.Red;
                     break;
                 case 38:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "Your Fortnite crashes. What a shame!";
                     redLabel.Text = "Play again";
@@ -679,8 +679,8 @@ namespace DeoNarayanNolanWhiteRoyICS3UFortniteAdventureGame
                     eliminationSoundPlayer.Play();
                     break;
                 case 39:
-                    reel1.Visible = false;
-                    reel2.Visible = false;
+                    leftImageLabel.Visible = false;
+                    rightImageLabel.Visible = false;
 
                     outputLabel.Text = "The other player dies of fall damage. You won!";
                     redLabel.Text = "Play again";
